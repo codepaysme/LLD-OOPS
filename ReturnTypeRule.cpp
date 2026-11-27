@@ -47,4 +47,5 @@ int main(){
     Child* child=new Child();
     Client* client=new Client(child);
     client->takeAnimal();
+    //output : child returning dog instance
 }
